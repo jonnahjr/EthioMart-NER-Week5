@@ -9,7 +9,7 @@ def train_and_evaluate_model(model_name, train_dataset, val_dataset, label_list,
     evaluation_dataset = val_dataset.map(lambda x: tokenize_and_align_labels(x, tokenizer, label_list), batched=True)
 
     data_collator = DataCollatorForTokenClassification(tokenizer)
-    
+     
     training_args = TrainingArguments(
         output_dir=f"./results_{model_name}",
         evaluation_strategy="epoch",
