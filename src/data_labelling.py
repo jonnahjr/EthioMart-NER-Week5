@@ -41,4 +41,3 @@ def save_to_conll(labeled_data, output_file):
             for token, label in message:
                 f.write(f"{token} {label}\n")
             f.write("\n")  # Blank line to separate messages
-
