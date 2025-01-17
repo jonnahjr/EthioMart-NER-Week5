@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 from data_utils import load_conll_dataset, split_conll_dataset, save_dataset
 from preprocess import map_labels, tokenize_and_align_labels
 from metrics import compute_metrics
-from model_utils import compare_models
+from model_utils import compare_models 
 
 # Load and preprocess dataset
 file_path = "../data/labeled_ner_data.txt"
