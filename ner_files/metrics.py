@@ -10,5 +10,5 @@ def compute_metrics(pred, id_to_label):
     
     report = classification_report(true_labels, true_preds)
     accuracy = accuracy_score(true_labels, true_preds)
-    
+     
     return {"accuracy": accuracy, "report": report}
