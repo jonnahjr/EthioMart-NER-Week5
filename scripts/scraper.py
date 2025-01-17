@@ -10,7 +10,7 @@ load_dotenv(dotenv_path=env_path)  # Explicitly load from the path
 
 api_id = os.getenv('TG_API_ID')
 api_hash = os.getenv('TG_API_HASH')
-phone = os.getenv('phone')
+phone = os.getenv('phone') 
 
 # Debugging - Check if environment variables are being loaded
 print(f"API ID: {api_id}")
