@@ -8,7 +8,7 @@ def tokenize_message(message):
     - tokens: list of str, tokenized message.
     """
     if isinstance(message, str):
-        return message.split()
+        return message.split() 
     else:
         return []
 
