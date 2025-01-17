@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def load_dataset(file_path):
     """
     Load dataset from a CSV file.
