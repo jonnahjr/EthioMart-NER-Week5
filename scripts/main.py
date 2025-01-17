@@ -7,7 +7,7 @@ from src.data_labelling import tokenize_message, annotate_message, save_to_conll
 
 def main(output_file, column_name, label_output_file, start_row, num_rows):
     # Load the dataset
-    df = load_dataset(output_file)
+    df = load_dataset(output_file) 
 
     # Annotate a subset of the cleaned data
     labeled_data = []
