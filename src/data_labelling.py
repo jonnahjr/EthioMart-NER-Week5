@@ -3,7 +3,7 @@ def tokenize_message(message):
     Tokenize a message based on spaces.
     Args:
     - message: str, input message.
-
+ 
     Returns:
     - tokens: list of str, tokenized message.
     """
