@@ -3,7 +3,7 @@ from transformers import AutoTokenizer
 # Tokenize and align labels
 def tokenize_and_align_labels(examples, tokenizer, label_to_id, label_all_tokens=True):
     tokenized_inputs = tokenizer(examples['tokens'], truncation=True, is_split_into_words=True)
-    
+     
     labels = []
     for i, label in enumerate(examples['ner_tags']):
         label = ['O' if l in ['0', 'o'] else l for l in label]
