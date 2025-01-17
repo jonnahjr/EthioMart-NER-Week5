@@ -33,8 +33,8 @@ def main(output_file, column_name, label_output_file, start_row, num_rows):
     print(f"\nAnnotated data saved to {output_file}")
 
 if __name__ == "__main__":
-    output_file = "../data/cleaned_dataset.csv"
-    label_output_file = "../data/labeled_data_CoNLL.txt"
+    output_file = "../data/cleaned_dataset_R4-6.csv"
+    label_output_file = "../data/labeled_data1.txt"
     column_name = 'Message'
     
     # Specify the starting row and number of rows to process
