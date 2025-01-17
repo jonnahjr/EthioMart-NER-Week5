@@ -3,7 +3,7 @@ import csv
 import os
 from dotenv import load_dotenv
 from pathlib import Path
-
+ 
 # Load environment variables once
 env_path = Path('.env')  # Set path to .env file
 load_dotenv(dotenv_path=env_path)  # Explicitly load from the path
