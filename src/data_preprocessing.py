@@ -17,7 +17,7 @@ def remove_emojis(text):
     )
     return emoji_pattern.sub(r'', text)
 
-# Function to remove blank lines
+# Function to remove blank lines 
 def remove_blank_lines(df, column_name): 
     df[column_name] = df[column_name].replace(r'^\s*$', pd.NA, regex=True)  
     return df.dropna(subset=[column_name])
