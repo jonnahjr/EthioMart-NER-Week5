@@ -21,7 +21,7 @@ def remove_emojis(text):
 def remove_blank_lines(df, column_name): 
     df[column_name] = df[column_name].replace(r'^\s*$', pd.NA, regex=True)  
     return df.dropna(subset=[column_name])
-
+ 
 # Function to remove unwanted texts
 def remove_unwanted_texts(df, column_name, unwanted_texts):
     for index, row in df.iterrows():
