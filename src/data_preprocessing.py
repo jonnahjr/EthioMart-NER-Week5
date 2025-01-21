@@ -8,7 +8,7 @@ def remove_emojis(text):
         "\U0001F600-\U0001F64F"  # emoticons
         "\U0001F300-\U0001F5FF"  # symbols & pictographs
         "\U0001F680-\U0001F6FF"  # transport & map symbols
-        "\U0001F700-\U0001F77F"  # alchemical symbols
+        "\U0001F700-\U0001F77F"  # alchemical symbols 
         "\U0001F780-\U0001F7FF"  # Geometric Shapes Extended
         "\U0001F800-\U0001F8FF"  # Supplemental Arrows-C 
         "\U0001F900-\U0001F9FF"  # Supplemental Symbols & Pictographs
