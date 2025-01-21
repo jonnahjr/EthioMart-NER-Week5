@@ -8,5 +8,5 @@ def load_dataset(file_path):
  
     Returns: 
     - df: DataFrame, loaded dataset.
-    """
+    """ 
     return pd.read_csv(file_path)
