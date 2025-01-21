@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
   
 import unittest 
-from src.data_loading import load_dataset 
+from src.data_loading import load_dataset  
 
 class TestDataLoading(unittest.TestCase):
     def test_load_dataset(self):
