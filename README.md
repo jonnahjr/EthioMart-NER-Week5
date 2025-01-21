@@ -1,4 +1,4 @@
- 
+  
 # EthioMart - Named Entity Recognition for Amharic E-commerce Data
 
 ## Overview
