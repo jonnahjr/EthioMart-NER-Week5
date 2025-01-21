@@ -2,7 +2,7 @@ import re
 import pandas as pd
  
 # Define a function to remove emojis
-def remove_emojis(text):
+def remove_emojis(text): 
     emoji_pattern = re.compile(
         "["  # Define the emoji pattern
         "\U0001F600-\U0001F64F"  # emoticons
