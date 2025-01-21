@@ -11,7 +11,7 @@ def tokenize_message(message):
         return message.split()
     else:
         return []
- 
+  
 def annotate_message(tokens):
     """
     Annotate each token in the message with labels.
