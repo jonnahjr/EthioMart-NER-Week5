@@ -29,7 +29,7 @@ def remove_unwanted_texts(df, column_name, unwanted_texts):
         if isinstance(message, str):
             for unwanted_text in unwanted_texts:
                 message = message.replace(unwanted_text, "")
-            message = message.replace('"', "")
+            message = message.replace('"', "") 
             df.at[index, column_name] = message.strip()
     return df
 
